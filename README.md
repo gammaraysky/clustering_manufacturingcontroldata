@@ -1,13 +1,12 @@
 # Clustering - Manufacturing Control Data
-Kaggle Tabular Playground Series Jul 2022 dataset
-https://www.kaggle.com/competitions/tabular-playground-series-jul-2022/overview
+- Kaggle Tabular Playground Series Jul 2022 dataset
+- https://www.kaggle.com/competitions/tabular-playground-series-jul-2022/overview
 
 #### Brief
 In this challenge, you are given a dataset where each row belongs to a particular cluster. Your job is to predict the cluster each row belongs to. You are not given any training data, and you are not told how many clusters are found in the ground truth labels. 
 
 #### Data Description
 29 features, 22 float, 7 int.
-
 
 ## Notebook Table of Contents
 #### EDA
