@@ -30,10 +30,10 @@ In this challenge, you are given a dataset where each row belongs to a particula
 - BGMM ensemble of 5 models with soft voting, ARI score 0.606
 - **Semi-Supervised, HistGBM, max_depth=5**
   - using above BGMM ensemble predict_probas, selectively choose datapoints where cluster prediction probabilities were higher than 0.7, and training HistGBM using ensemble's labels. **ARI score 0.612** (estimated leaderboard: 317/1253 teams) (late submission)
-- DBSCAN: poor performance, ARI score 0.00, dataset density is rather homogeneous.
-- MeanShift: poor performance, ARI score 0.06. Training took too long, so skipped trying to improve model.
+- DBSCAN: poor performance, ARI score 0.00, dataset density is rather homogeneous, so not effective algorithm to use.
+- MeanShift: poor performance, ARI score 0.06. took too long to try and tune params, skipped
 - Agglomerative Modelling: took too long, skipped
-- Birch: took too long, skipped
+- Birch: poor performance, ARI score 0.32. took too long to try and tune params, skipped
 #### Visualise Feature KDEs according to clusters
 #### Visualise Clusters with t-SNE
 
