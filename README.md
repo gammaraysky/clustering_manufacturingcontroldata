@@ -1,5 +1,5 @@
 # Clustering - Manufacturing Control Data
-- Kaggle Tabular Playground Series Jul 2022 dataset
+- Kaggle Tabular Playground Series Jul 2022
 - https://www.kaggle.com/competitions/tabular-playground-series-jul-2022/overview
 
 #### Brief
